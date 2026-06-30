@@ -1,0 +1,20 @@
+# Ignore everything by default
+/*
+
+# Track source_final clean chapter files
+!/source_final/
+!/source_final/chapter_*.md
+!/source_final/appendix.md
+
+# Track source_final images directory and all contents
+!/source_final/images/
+!/source_final/images/**
+!/source_final/images/**/*
+
+# Track target_final entirely
+!/target_final/
+!/target_final/**
+!/target_final/**/*
+
+# macOS
+.DS_Store
